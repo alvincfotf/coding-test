@@ -29,6 +29,7 @@ require_once 'config.php';
       <li>Create a MySQL database and provide the correct configuration information in config.php</li>
       <li>Use javascript in the "scrape.js" script to call the "scrape.php" route on the server asyncronously</li>
       <li>Fill in the "scrape.php" route to scrape the required data from the radio site. It must return the broadcasts and guests only from the requested month</li>
+      <li>Use javascript in the "scrape.js" script to call the search.php route on the server asyncronously</li>
       <li>Fill in the search.php route to search up and display broadcasts from a date range made by the two datepicker elements from all broadcast records in the database.</li>
       <li>Update the DOM with the search results</li>
       <li>Broadcast results must be formatted and easy to read</li>
